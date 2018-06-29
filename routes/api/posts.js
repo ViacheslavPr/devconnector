@@ -174,7 +174,7 @@ router.post(
           text: req.body.text,
           name: req.body.name,
           avatar: req.body.avatar,
-          user: req.body.user
+          user: req.user.id
         };
 
         //Add to comments array
